@@ -1,0 +1,114 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ece7ac;
+}
+
+section {
+    text-align: center;
+}
+
+.cell {
+    font-family: "Permanent Marker", sans-serif;
+    width: 120px;
+    height: 120px;
+    border: 2px solid #a19d27;
+    /* cursor: pointer; */
+    /* line-height: 100px; */
+    font-size: 80px;
+    color:#8ba100;/*30a100*/
+}
+
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 366px;
+    margin: 20vh auto;
+    background-color: #c8c490;
+    margin-bottom:60px;
+    border-radius: 50px;
+
+}
+
+.game--status {
+    font-size: 50px;
+    color: #696200;
+    margin: 20px auto;
+    font-family: cursive sans-serif;
+}
+
+.game--restart {
+    width: 200px;
+    border-width: 0px;
+    border-radius: 20px;
+    height: 50px;
+    font-size: 25px;
+    color: #959595c4;
+    background-color: #cfcfcfa5;
+    /* cursor: pointer; */
+
+}
+
+.game--restart:hover {
+    background-color: #1ed86c;
+}
+
+.removeLeft{
+    border-left-width: 0px;
+}
+
+.removeTop{
+    border-top-width: 0px;
+}
+
+.removeRight{
+    border-right-width: 0px;
+}
+
+.removeBottom{
+    border-bottom-width: 0px;
+}
+
+.score-cell{
+    display:inline-block;
+    position:fixed;
+    height: 90px;
+    width: 150px;
+    font-size: 30px;
+    font-family: "Madimi One", sans-serif;
+    /* border: solid; */
+    background-color: #e5d78a;
+    border-radius: 100px;
+    margin: 20px;
+    padding:9px
+
+}
+
+.score-cell1{
+    display:inline-block ;
+    left:0px;
+    color: #7d6d00
+}
+.score-cell2{
+    display:inline-block ;
+    right:0px;
+    color: #748600;
+
+}
+
+.round{
+    display: inline-block;
+    position: fixed;
+    left: 39vw;
+    top: 5vh;
+    font-family: "Madimi One", sans-serif;
+    font-size: 80px;
+    color: #b08441;
+    font-weight: 1000;
+}
+
+#myname{
+    font-size: 8px;
+    text-align: right;
+    color: rgba(52, 96, 96, 0.472);
+}
+

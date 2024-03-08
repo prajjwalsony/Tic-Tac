@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>tictak</title>
+    </head>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+<body>
+<section>
+    <div class="round">Round 1</div>
+    <div class="score-cell1 score-cell">Player X Score: 0</div>
+    <div class="score-cell2 score-cell">Player O Score: 0</div>
+    <div class="game--container">
+        <div data-cell-index="1" class="cell removeLeft removeTop"></div>
+        <div data-cell-index="2" class="cell removeTop"></div>
+        <div data-cell-index="3" class="cell removeTop removeRight"></div>
+        <div data-cell-index="4" class="cell removeLeft"></div>
+        <div data-cell-index="5" class="cell"></div>
+        <div data-cell-index="6" class="cell removeRight"></div>
+        <div data-cell-index="7" class="cell removeLeft  removeBottom"></div>
+        <div data-cell-index="8" class="cell  removeBottom"></div>
+        <div data-cell-index="9" class="cell removeRight  removeBottom"></div>
+    </div>
+    <h2 class="game--status"></h2>
+    <button class="game--restart">Restart Game</button>
+
+    <h3 id="myname"></h3>
+</section>
+</body>
+<script src="script.js"></script>
+</html>
